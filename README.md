@@ -39,7 +39,12 @@ Here's an example of what you can do when it's connected to Claude.
 
    ```bash
    cd whatsapp-bridge
-   go run main.go
+   go build -o whatsapp-bridge.exe
+   ```
+   
+   **Run**
+   ```
+   whatsapp-bridge.exe
    ```
 
    The first time you run it, you will be prompted to scan a QR code. Scan the QR code with your WhatsApp mobile app to authenticate.
